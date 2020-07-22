@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #f5f7fa;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 10px;
+}
+
+
+
+.wraper {
+        background: #f5f7fa;
+        
+}
+
+.mainContainer {
+        background: rgb(17, 15, 119);
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
+        margin: 0 auto;
+        box-shadow: 5px 9px 20px rgb(84, 80, 106);
+}
+
+.leftContainer {
+    background:#1e2939;
+    width: 370px;
+    padding-top: 40;
+    padding-bottom: 40px;
+    
+}
+.one {
+    display: block;
+    position: absolute;
+    transition-duration: 2s;
+}
+.one .two {
+    border: 2px solid transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.one:hover {
+    opacity: 0.00;
+}
+.contactContainer, .techSkillsContainer, .softkillsContainer {
+    color: orange;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+    line-height: 2;
+}
+.techSkillsContainer, .softkillsContainer, .contactTitle, .leftItemText {
+    color: rgb(250, 249, 249);
+}
+
+
+.contactLink {
+    color: white;
+    text-decoration: none;
+}
+.contactLink:hover {
+    color: tomato;
+}
+.leftItem {
+    color: orange;
+}
+.rightContainer {
+        background: white;
+        padding-left: 90px;
+        padding-right: 80px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+}
