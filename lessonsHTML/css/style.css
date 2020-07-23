@@ -15,6 +15,9 @@ h1 {
     color: #1e2939;
     font-weight: 700;
 }
+h1:hover {
+    background-color: red;
+}
 h2 {
     font-size: 16px;
 }
