@@ -8,9 +8,25 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
     padding: 10px;
 }
-
-
-
+h1 {
+    font-size: 45px;
+    line-height: 2;
+    padding: 10px;
+    color: #1e2939;
+    font-weight: 700;
+}
+h2 {
+    font-size: 16px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.714;
+    margin-bottom: 27px;
+    text-align: justify;
+}
+b{
+    color: #1e2939;
+}
 .wraper {
         background: #f5f7fa;
         
@@ -28,7 +44,7 @@ body {
 .leftContainer {
     background:#1e2939;
     width: 370px;
-    padding-top: 40;
+    padding-top: 40px;
     padding-bottom: 40px;
     
 }
@@ -62,7 +78,7 @@ body {
     color: white;
     text-decoration: none;
 }
-.contactLink:hover {
+.contactLink:hover , .progectLink:hover {
     color: tomato;
 }
 .leftItem {
@@ -74,4 +90,42 @@ body {
         padding-right: 80px;
         padding-top: 100px;
         padding-bottom: 100px;
+}
+
+.progectsTitle, .experienceTitle {
+    color: #161627;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 4;
+}
+.progectsItem {
+    font-weight: 700;
+    line-height: 1.714;
+    margin-left: 15px;
+}
+
+.progectLink, .dots, .text {
+    text-decoration: none;
+    color: gray;
+    font-weight: 400;
+}
+.profesionTitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+.profesionCompany {
+    color: orange;
+}
+.profesionPeriod {
+    color: gray;
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.experienceItem {
+    line-height: 1.714;
+    margin-left: 15px;
 }
