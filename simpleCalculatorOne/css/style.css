@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(117, 0, 128), rgb(40, 29, 104));
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%)
+}
+.button {
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin: 1px;
+    cursor: pointer;
+}
+.textview {
+    border: none;
+    width: 205px;
+    font-size: 25px;
+    margin: 1px;
+    padding: 5px;
+}
+.buttonClean {
+    border: none;
+    width: 212px;
+    height: 50px;
+    font-size: 25px;
+    margin: 1px;
+    cursor: pointer;
+}
