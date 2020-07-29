@@ -1,0 +1,17 @@
+body {
+    background: green;
+}
+.wraper {
+    width: 220px;
+}
+#inputArea {
+    width: 200px;
+    font-size: 25px;
+    padding: 5px;
+}
+.buttonItem {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 2px;
+}
