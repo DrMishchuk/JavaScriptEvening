@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 20px;
+    background-color: rgb(197, 191, 194);
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: rgb(25, 53, 143);
+}
+
+.services, .progects {
+    text-align: center;
+    /* background-color: lightblue; */
+}
+
+.header {
+    background-color: rgb(197, 105, 81);
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.service {
+    width: 250px;
+    height: 200px;
+    background-color: khaki;
+    display: inline-block;
+    margin: 5px;
+}
+.progect {
+    width: 390px;
+    height: 200px;
+    background-color: rgb(140, 147, 240);
+    display: inline-block;
+    margin: 5px;
+}

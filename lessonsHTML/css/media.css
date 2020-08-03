@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1200px){
+    .header {
+        background-color: rgb(60, 182, 90);
+        width: 800px;
+    }
+    
+    .service {
+        width: 190px;
+        background-color: rgb(117, 107, 11);
+    }
+    .progect {
+        width: 290px;
+        height: 200px;
+        background-color: rgb(51, 62, 219);
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .header {
+        background-color: rgb(207, 138, 121);
+        width: 600px;
+    }
+    
+    .service {
+        width: 100px;
+        background-color: rgb(141, 135, 76);
+    }
+    .progect {
+        width: 100px;
+        height: 200px;
+        background-color: rgb(48, 52, 100);
+    }
+}
